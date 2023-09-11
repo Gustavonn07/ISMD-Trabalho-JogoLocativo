@@ -3,13 +3,33 @@ import Nav from '../../components/Nav';
 import Participantes from "../../components/Participantes";
 import Galeria from "../../components/Galeria";
 import { styled } from "styled-components";
+import Footer from "../../components/Footer";
+import Btn from "../../components/Btn";
 
 const PageLayout = () => {
 
     return (
         <>
             <Main>
-                <Nav/>
+                <Nav>
+                    <Btn
+                        link="/"
+                        nome="Inicio"
+                    />
+                    <Btn
+                        link="/regras"
+                        nome="Regras"
+                    />
+                    <Btn
+                        link="desafio"
+                        nome="Desafios"
+                    />
+                    <Btn
+                        link="controle"
+                        nome="Verificação"
+                    />
+                    <Footer />
+                </Nav>
                 <Outlet />
                 <Participantes />
                 <Galeria />
