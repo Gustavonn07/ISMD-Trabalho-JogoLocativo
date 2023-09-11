@@ -33,13 +33,13 @@ const PageLayout = () => {
                 <Outlet />
                 <Participantes
                     imagem1="../../images/Gustavo.jpg"
-                    imagem2=""
+                    imagem2="../../images/Klaivert.jpg"
                     alt1="Imagem do Gustavo de boné na praia usando roupas pretas."
-                    alt2=""
+                    alt2="Imagem do Klaiver de fone de ouvido"
                     nome1="Gustavo Nepomuceno Nogueira"
-                    nome2=""
+                    nome2="José Klaivert Santos da Silva"
                     mat1=" 554728"
-                    mat2=" "
+                    mat2=" 552806"
                 />
                 <Galeria />
             </Main>
