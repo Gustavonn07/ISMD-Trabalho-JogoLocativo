@@ -1,7 +1,11 @@
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import { Suspense } from "react";
 import PageLayout from "../layout/PageLayout";
-import GridPrincipal from "../components/GridPrincipal";
+import PaginaInicial from "../pages/PaginaInicial";
+import PaginaRegras from "../pages/PaginaRegras";
+import PaginaControle from "../pages/PaginaControle";
+import PaginaDesafio from "../pages/PaginaDesafios";
+import PaginaNotFound from "../pages/PaginaNotFound";
 
 const Ways = () => {
 
@@ -11,10 +15,13 @@ const Ways = () => {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<PageLayout />}>
-                            <GridPrincipal>
-
-                            </GridPrincipal>
+                            <Route index element= {<PaginaInicial  />} />
+                            <Route path="/regras" element= {<PaginaRegras   />} />
+                            <Route path="/controle" element= {<PaginaControle />} />
+                            <Route path="/desafio" element= {<PaginaDesafio  />} />
                         </Route>
+
+                        <Route path="*" element={<PaginaNotFound />} />
                     </Routes>
                 </BrowserRouter>
             </Suspense>
