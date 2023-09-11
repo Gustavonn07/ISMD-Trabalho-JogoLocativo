@@ -28,7 +28,7 @@ const Nav__Container = styled.section`
     box-shadow: 0 .8rem 1.8rem #00000060;
     position: fixed;
     height: 100vh;
-    width: 16.5%;
+    width: 25rem;
     z-index: 100;
 `
 
