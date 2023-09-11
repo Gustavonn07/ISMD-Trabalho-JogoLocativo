@@ -1,6 +1,6 @@
 import GridPrincipal from "../../components/GridPrincipal";
 
-const PaginaInicial = () => {
+const PaginaRegras = () => {
 
     return (
         <>
@@ -11,4 +11,4 @@ const PaginaInicial = () => {
     )
 }
 
-export default PaginaInicial;
+export default PaginaRegras;
