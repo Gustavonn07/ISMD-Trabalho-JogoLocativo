@@ -31,7 +31,16 @@ const PageLayout = () => {
                     <Footer />
                 </Nav>
                 <Outlet />
-                <Participantes />
+                <Participantes
+                    imagem1="../../public/images/Gustavo.jpg"
+                    imagem2=""
+                    alt1="Imagem do Gustavo de boné na praia usando roupas pretas."
+                    alt2=""
+                    nome1="Gustavo Nepomuceno Nogueira"
+                    nome2=""
+                    mat1=" 554728"
+                    mat2=" "
+                />
                 <Galeria />
             </Main>
         </>
@@ -42,7 +51,7 @@ const Main = styled.main`
     display: grid;
     /* 5 linhas */
     grid-template-columns: 25rem repeat(3, 1fr);
-    grid-template-rows: repeat(4, 80vh);
+    grid-template-rows: repeat(2, 80vh) 65vh 80vh;
 `
 
 export default PageLayout;
