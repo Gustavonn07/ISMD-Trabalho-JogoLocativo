@@ -32,7 +32,7 @@ const PageLayout = () => {
                 </Nav>
                 <Outlet />
                 <Participantes
-                    imagem1="../../public/images/Gustavo.jpg"
+                    imagem1="../../images/Gustavo.jpg"
                     imagem2=""
                     alt1="Imagem do Gustavo de boné na praia usando roupas pretas."
                     alt2=""
