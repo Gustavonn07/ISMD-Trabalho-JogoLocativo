@@ -6,6 +6,7 @@ import PaginaRegras from "../pages/PaginaRegras";
 import PaginaControle from "../pages/PaginaControle";
 import PaginaDesafio from "../pages/PaginaDesafios";
 import PaginaNotFound from "../pages/PaginaNotFound";
+import PaginaComoJogar from "../pages/PaginaComoJogar";
 
 const Ways = () => {
 
@@ -19,6 +20,7 @@ const Ways = () => {
                             <Route path="/regras" element= {<PaginaRegras   />} />
                             <Route path="/controle" element= {<PaginaControle />} />
                             <Route path="/desafio" element= {<PaginaDesafio  />} />
+                            <Route path="/comojogar" element= {<PaginaComoJogar  />} />
                         </Route>
 
                         <Route path="*" element={<PaginaNotFound />} />
