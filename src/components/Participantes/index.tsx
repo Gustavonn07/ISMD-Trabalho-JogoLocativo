@@ -49,6 +49,7 @@ const Participantes__HeadingPrimary = styled.h2`
     text-align: center;
     color: var(--color-secondary-dark-1);
     padding-top: 1rem;
+    text-shadow: 0 .5rem .8rem #00000030;
 `
 
 const Participante__Container = styled.div`
