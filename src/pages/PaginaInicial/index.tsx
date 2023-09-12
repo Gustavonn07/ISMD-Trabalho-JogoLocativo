@@ -13,8 +13,8 @@ const PaginaInicial = () => {
                     <Banner__Heading> Zord Map </Banner__Heading>
                     <Btn__Container>
                         <BotaoNext
-                            link="desafio"
-                            texto="ir para Desafios"
+                            link="/comojogar"
+                            texto="ir para Como jogar"
                         />
                     </Btn__Container>
                 </Banner>

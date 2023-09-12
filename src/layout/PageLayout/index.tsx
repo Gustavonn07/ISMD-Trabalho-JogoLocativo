@@ -17,6 +17,10 @@ const PageLayout = () => {
                         nome="Inicio"
                     />
                     <Btn
+                        link="/comojogar"
+                        nome="Como jogar"
+                    />
+                    <Btn
                         link="desafio"
                         nome="Desafios"
                     />
@@ -51,7 +55,7 @@ const Main = styled.main`
     display: grid;
     /* 5 linhas */
     grid-template-columns: 25rem repeat(3, 1fr);
-    grid-template-rows: repeat(2, 48vh) 65vh 80vh;
+    grid-template-rows: repeat(2, 48vh) 75vh 73.5vh;
 `
 
 export default PageLayout;
