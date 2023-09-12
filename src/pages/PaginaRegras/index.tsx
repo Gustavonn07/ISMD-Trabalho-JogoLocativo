@@ -11,19 +11,19 @@ const PaginaRegras = () => {
                     <Texto__Container>
                         <Texto__Heading>Regras:</Texto__Heading>
                         <Texto__Paragraph>
-                            Os participantes devem iniciar em uma das três entradas: Mister Hull, Humberto Monte ou a entrada da avenida R. Pernambuco (próximo ao instituto de educação física). 
+                            1. Os participantes devem iniciar em uma das três entradas: Mister Hull, Humberto Monte ou a entrada da avenida R. Pernambuco (próximo ao instituto de educação física). 
                             <br />
                             <br />
-                            Ao iniciar em um desses locais os participantes automaticamente recebem 10 pontos, no caso da entrada próxima ao IEFES (Instituto de Educação Física e Esportes) esses pontos sobem para 20, já que é a entrada mais distante. 
+                            2. Ao iniciar em um desses locais os participantes automaticamente recebem 10 pontos, no caso da entrada próxima ao IEFES (Instituto de Educação Física e Esportes) esses pontos sobem para 20, já que é a entrada mais distante. 
                             <br />
                             <br />
-                            Escolhida a entrada os participantes devem agora visitar os pontos centrais de ufc, que valem 30 pontos cada, esses são: Biblioteca Central, Administração do Centro de Tecnologias, RU 1, ICA, entrada do Centro de Ciências, RU 2 e por fim o Instituto Universidade Virtual ou melhor: o bloco de SMD.
+                            3. Escolhida a entrada os participantes devem agora visitar os pontos centrais de ufc, que valem 30 pontos cada, esses são: Biblioteca Central, Administração do Centro de Tecnologias, RU 1, ICA, entrada do Centro de Ciências, RU 2 e por fim o Instituto Universidade Virtual ou melhor: o bloco de SMD.
                             <br />
                             <br />
-                            Durante os percursos mais locais como: cantina da engenharia, cantina da biologia, biblioteca da física, DA da química e etc, valem 10 pontos cada, e servem para aumentar a pontuação total da equipe até que se chegue ao ponto final. Além disso existem pontos extras, mais afastados, que valem 20 pontos, que podem ser importantes para aqueles que souberem administrar suas rotas, esses por sua vez são: DETI (bloco da engenharia da computação e telecomunicações), “barco da engenharia de pesca”, teto da zootecnia, fazendas da agronomia e o bloco 732.
+                            4. Durante os percursos mais locais como: cantina da engenharia, cantina da biologia, biblioteca da física, DA da química e etc, valem 10 pontos cada, e servem para aumentar a pontuação total da equipe até que se chegue ao ponto final. Além disso existem pontos extras, mais afastados, que valem 20 pontos, que podem ser importantes para aqueles que souberem administrar suas rotas, esses por sua vez são: DETI (bloco da engenharia da computação e telecomunicações), “barco da engenharia de pesca”, teto da zootecnia, fazendas da agronomia e o bloco 732.
                             <br />
                             <br />
-                            Ao escanear os QR codes presentes em cada um desses lugares, os Pontos de Poder vão automaticamente pro seus Zords, que ao total devem ter no mínimo 250 de pontos, para que consiga derrotar o chefão Vraque, passando para a segunda etapa onde a equipe vencedora é escolhida entre aquelas que chegaram ao bloco, sendo que a equipe cujo Zord tem mais pontos de poder triunfa sobre as outras e ganha o título de Zord Explorados e em caso de empate, aqueles que chegaram antes se consagram como vitoriosos.
+                            5. Ao escanear os QR codes presentes em cada um desses lugares, os Pontos de Poder vão automaticamente pro seus Zords, que ao total devem ter no mínimo 250 de pontos, para que consiga derrotar o chefão Vraque, passando para a segunda etapa onde a equipe vencedora é escolhida entre aquelas que chegaram ao bloco, sendo que a equipe cujo Zord tem mais pontos de poder triunfa sobre as outras e ganha o título de Zord Explorados e em caso de empate, aqueles que chegaram antes se consagram como vitoriosos.
                         </Texto__Paragraph>
                     </Texto__Container>
 
