@@ -1,0 +1,21 @@
+ISMD: Tarefa 2
+
+Dupla: Gustavo Nepomuceno Nogueira e José Klaivert Santos da Silva.
+
+
+O que é o Zord Map:
+Zord Map é um game pervasivo, utiliza de localização em tempo real (como Pokémon Go) para determinar a posição dos jogadores no campus do pici. Neste game os participantes devem formar equipes de 3 pessoas, que quando juntas formam seu Zord e esse deve partir em buscas dos “Pontos de Poder” espalhados em pontos importantes da UFC, os obtendo a partir da leitura de QR codes escondidos nesses locais, para que enfim possam derrotar o grande monstro Vraque, que reside no bloco de SMD.
+
+Mapa com locais a serem explorados e rotas das visitas:
+
+Descrição dos desafios:
+No Zord Map as equipes possuem metas e desafios bem simples e claros: as diferentes equipes devem visitar os locais principais do campus do pici marcados em seus mapas, escanear os QR codes presentes em cada um deles (depois de uma pequena busca no local pelos mesmos), conseguir pontos e ao final do tempo de duas horas devem ter conseguido chegar ao bloco de SMD com pontos o suficiente para derrotar o chefão final, e para aqueles que conseguirem completar essas etapas será então decidida a equipe vencedora, que será aquela que tiver obtido mais pontos. Em caso de empate na pontuação, a equipe vencedora será aquela que conseguiu chegar ao bloco de SMD no menor tempo.
+
+Sistema de controle de visitas:
+
+Regras do jogo:
+Os participantes devem iniciar em uma das três entradas: Mister Hull, Humberto Monte ou a entrada da avenida R. Pernambuco (próximo ao instituto de educação física). Ao iniciar em um desses locais os participantes automaticamente recebem 10 pontos, no caso da entrada próxima ao IEFES (Instituto de Educação Física e Esportes) esses pontos sobem para 20, já que é a entrada mais distante.
+Escolhida a entrada os participantes devem agora visitar os pontos centrais de ufc, que valem 30 pontos cada, esses são: Biblioteca Central, Administração do Centro de Tecnologias, RU 1, ICA, entrada do Centro de Ciências, RU 2 e por fim o Instituto Universidade Virtual ou melhor: o bloco de SMD.
+Durante os percursos mais locais como: cantina da engenharia, cantina da biologia, biblioteca da física, DA da química e etc, valem 10 pontos cada, e servem para aumentar a pontuação total da equipe até que se chegue ao ponto final. Além disso existem pontos extras, mais afastados, que valem 20 pontos, que podem ser importantes para aqueles que souberem administrar suas rotas, esses por sua vez são: DETI (bloco da engenharia da computação e telecomunicações), “barco da engenharia de pesca”, teto da zootecnia, fazendas da agronomia e o bloco 732.
+Ao escanear os QR codes presentes em cada um desses lugares, os Pontos de Poder vão automaticamente pro seus Zords, que ao total devem ter no mínimo 250 de pontos, para que consiga derrotar o chefão Vraque, passando para a segunda etapa onde a equipe vencedora é escolhida entre aquelas que chegaram ao bloco, sendo que a equipe cujo Zord tem mais pontos de poder triunfa sobre as outras e ganha o título de Zord Explorados, e em caso de empate, aqueles que chegaram antes se consagram como vitoriosos. 
+
