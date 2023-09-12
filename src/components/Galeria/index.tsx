@@ -36,6 +36,7 @@ const Galeria__Image1 = styled.img`
 
 const Galeria__Image2 = styled.img`
     grid-area: 3 / 1 / 4 / 2;
+    height: 16.6rem;
     box-shadow: 0 .5rem .8rem #00000040;
 `
 

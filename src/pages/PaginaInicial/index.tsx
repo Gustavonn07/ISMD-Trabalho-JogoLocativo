@@ -51,6 +51,7 @@ const Banner__Heading = styled.h1`
         background-color: var(--color-white);
         position: absolute;
         border-radius: .4rem;
+        box-shadow: 0 1rem 1.8rem #00000030;
     }
 `
 
