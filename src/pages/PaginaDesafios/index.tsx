@@ -1,6 +1,5 @@
 import GridPrincipal from "../../components/GridPrincipal";
 import { styled } from "styled-components";
-import BotaoNext from "../../components/BtnNext"
 import BtnNext from "../../components/BtnNext";
 
 const PaginaDesafio = () => {
