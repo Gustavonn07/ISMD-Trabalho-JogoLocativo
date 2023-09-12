@@ -1,6 +1,6 @@
 import GridPrincipal from "../../components/GridPrincipal";
 import { styled } from "styled-components";
-import BotaoNext from "../../components/BtnNext"
+import BotaoNext from "../../components/BtnNext";
 
 // type PropsPaginaInicial = {}
 
