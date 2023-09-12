@@ -32,38 +32,51 @@ const Galeria__Container = styled.section`
 const Galeria__Image1 = styled.img`
     grid-area: 1 / 1 / 3 / 3;
     box-shadow: 0 .5rem .8rem #00000040;
+    width: 100%;
+    height: 100%;
 `
 
 const Galeria__Image2 = styled.img`
     grid-area: 3 / 1 / 4 / 2;
     height: 16.6rem;
     box-shadow: 0 .5rem .8rem #00000040;
+    width: 100%;
+    height: 100%;
 `
 
 const Galeria__Image3 = styled.img`
     grid-area: 1 / 3 / 2 / 4;
     box-shadow: 0 .5rem .8rem #00000040;
+    width: 100%;
+    height: 100%;
 `
 
 const Galeria__Image4 = styled.img`
     grid-area: 3 / 2 / 4 / 3;
     box-shadow: 0 .5rem .8rem #00000040;
-    width: 24.5rem;
+    width: 100%;
+    height: 100%;
 `
     
 const Galeria__Image5 = styled.img`
     grid-area: 2 / 3 / 4 / 4;
     box-shadow: 0 .5rem .8rem #00000040;
+    width: 100%;
+    height: 100%;
 `
 
 const Galeria__Image6 = styled.img`
     grid-area: 1 / 4 / 2 / -1;
     box-shadow: 0 .5rem .8rem #00000040;
+    width: 100%;
+    height: 100%;
 `
 
 const Galeria__Image7 = styled.img`
     grid-area: 2 / 4 / 4 / -1;
     box-shadow: 0 .5rem .8rem #00000040;
+    width: 100%;
+    height: 100%;
 `
 
 export default Galeria;
