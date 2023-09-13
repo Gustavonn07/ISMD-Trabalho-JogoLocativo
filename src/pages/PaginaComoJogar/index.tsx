@@ -98,7 +98,7 @@ const BTN__Container = styled.div`
     gap: 5rem;
 
     position: absolute;
-    bottom: 3.5rem;
+    bottom: 4.5rem;
     right: 36%;
 `
 
