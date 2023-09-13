@@ -89,7 +89,7 @@ const Container__Cima = styled.div`
 `
 
 const Mapa = styled.div`
-    width: 40%;
+    width: 45%;
     height: 100%;
     margin-top: 7rem;
     box-shadow: 0 .8rem 1.4rem #00000040;
@@ -103,7 +103,7 @@ const Mapa = styled.div`
 `
 
 const Texto__Container = styled.div`
-    width: 40%;
+    width: 45%;
     height: 100%;
     margin-top: 7rem;
     
@@ -121,6 +121,10 @@ const BTN__Container = styled.div`
     bottom: 5rem;
     display: flex;
     gap: 5rem;
+
+    @media only screen and (max-width: 62.5rem) {
+        bottom: 10rem;
+    }
 `
 
 const Btn = styled.div`
@@ -155,5 +159,9 @@ const Texto__Paragraph = styled.p`
     color: var(--color-secondary);
     align-self: center;
     width: 90%;
+    
+    @media only screen and (max-width: 62.5rem) {
+        font-size: 2rem;
+    }
 `
 export default PaginaControle;

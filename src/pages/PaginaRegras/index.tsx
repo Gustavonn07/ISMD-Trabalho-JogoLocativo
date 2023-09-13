@@ -87,9 +87,9 @@ const Regras__Container = styled.section`
 `
 
 const Texto__Container = styled.div`
-    width: 80%;
-    height: 75%;
-    margin-top: 7rem;
+    width: 90%;
+    height: 70%;
+    margin-top: 12rem;
     
     display: flex;
     flex-direction: column;
@@ -105,6 +105,10 @@ const BTN__Container = styled.div`
     bottom: 5rem;
     display: flex;
     gap: 5rem;
+    
+    @media only screen and (max-width: 62.5rem) {
+        bottom: 10rem;
+    }
 `
 
 const Btn = styled.div`
@@ -131,7 +135,6 @@ const Texto__Heading = styled.h2`
     color: var(--color-secondary-dark-1);
     text-shadow: 0 .2rem .4rem #00000030;
     margin-left: 3rem;
-    margin-top: 3rem;
 `
 
 const Texto__Paragraph = styled.p`
@@ -140,6 +143,10 @@ const Texto__Paragraph = styled.p`
     color: var(--color-secondary);
     align-self: center;
     width: 90%;
+    
+    @media only screen and (max-width: 62.5rem) {
+        font-size: 1.9rem;
+    }
 `
 
 export default PaginaRegras;

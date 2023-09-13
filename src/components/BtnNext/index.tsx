@@ -25,6 +25,8 @@ const BtnNext__Btn = styled.a`
     box-shadow: 0 1rem 1.8rem #00000030;
     background-color: inherit;
     color: inherit;
+
+    @media only screen and (max-width: 62.5rem) { font-size: 2rem}
 `
 
 export default BtnNext;

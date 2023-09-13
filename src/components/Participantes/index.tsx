@@ -40,8 +40,9 @@ const Participantes = ({ imagem1, imagem2, alt1, alt2, nome1, nome2, mat1, mat2 
 
 const Participantes__Container = styled.section`
     grid-area: 3 / 2 / 4 / -1;
-
     background-color: var(--color-white);
+
+    @media only screen and (max-width: 75rem) { grid-area: 3 / 1 / 4 / -1}
 `
 
 const Participantes__HeadingPrimary = styled.h2`
