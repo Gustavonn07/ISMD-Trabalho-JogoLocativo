@@ -92,7 +92,8 @@ const Container__Texto = styled.div`
 `
 
 const Container__Btn = styled.div`
-    margin-top: 10rem;
+    position: absolute;
+    bottom: 5rem;
     display: flex;
     gap: 5rem;
 `
