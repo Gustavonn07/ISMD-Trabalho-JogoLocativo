@@ -20,6 +20,8 @@ const GridPrincipal__Container = styled.main`
     display: grid;
 
     grid-area: 1 / 2 / 3 / -1;
+    
+    @media only screen and (max-width: 75rem) { grid-area: 1 / 1 / 3 / -1}
 `
 
 export default GridPrincipal;

@@ -56,6 +56,16 @@ const Main = styled.main`
     /* 5 linhas */
     grid-template-columns: 25rem repeat(3, 1fr);
     grid-template-rows: repeat(2, 48vh) 75vh 73.5vh;
+
+    @media only screen and (max-width: 50rem) {
+        grid-template-columns: 25rem repeat(2, 1fr);
+        grid-template-rows: 55vh 40vh 75vh;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 35vh 40vh;
+    }
 `
 
 export default PageLayout;

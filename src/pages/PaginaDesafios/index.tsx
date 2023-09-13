@@ -80,7 +80,7 @@ const Container__Desafio = styled.section`
 const Container__Texto = styled.div`
     width: 80%;
     height: 60%;
-    margin-top: 10rem;
+    margin-top: 15rem;
     
     display: flex;
     flex-direction: column;
@@ -89,6 +89,15 @@ const Container__Texto = styled.div`
     padding: 2rem;
     border-radius: .5rem;
     background-color: var(--color-secondary-light-5);
+
+    @media only screen and (max-width: 50rem) {
+        width: 90%;
+        height: 70%;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        margin-top: 18.5rem;
+    }
 `
 
 const Container__Btn = styled.div`
@@ -96,6 +105,14 @@ const Container__Btn = styled.div`
     bottom: 5rem;
     display: flex;
     gap: 5rem;
+    
+    @media only screen and (max-width: 62.5rem) {
+        bottom: 10rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        bottom: 5rem;
+    }
 `
 
 const Btn = styled.div`
@@ -130,6 +147,10 @@ const Desafios__Paragraph = styled.p`
     color: var(--color-secondary);
     align-self: center;
     width: 90%;
+
+    @media only screen and (max-width: 62.5rem) {
+        font-size: 2.5rem;
+    }
 `
 
 export default PaginaDesafio;

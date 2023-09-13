@@ -53,7 +53,6 @@ const ComoJogar__Container = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
     overflow: hidden;
     background-color: var(--color-secondary-light-3);
     z-index: 100;
@@ -89,8 +88,16 @@ const ComoJogar__ContainerBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
-    height: 100%;
+    gap: 5rem;
+    height: 100%; 
+
+    @media only screen and (max-width: 50rem) {
+        flex-direction: column;
+    }
+    
+    @media only screen and (max-width: 16.25rem) {
+        margin-top: 3.2rem;
+    }
 `
 
 const BTN__Container = styled.div`
@@ -99,7 +106,17 @@ const BTN__Container = styled.div`
 
     position: absolute;
     bottom: 5rem;
-    right: 36%;
+    right: 50%;
+    transform: translateX(50%);
+
+    @media only screen and (max-width: 62.5rem) {
+        bottom: 10rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        bottom: 5rem;
+        width: 50rem;
+    }
 `
 
 const Btn = styled.div`
@@ -126,12 +143,17 @@ const ComoJogar__Box = styled.div`
     gap: 5rem;
     z-index: 2;
     
-    width: 30vw;
+    width: 40%;
     height: 60%;
     box-shadow: 0 .8rem 1.2rem #00000040;
     padding: 1.5rem;
     border-radius: .4rem;
     background-color: var(--color-secondary-light-5);
+
+    @media only screen and (max-width: 50rem) {
+        width: 90%;
+        height: 35%;
+    }
 `
 
 const ComoJogar__Heading = styled.h2`
@@ -139,11 +161,19 @@ const ComoJogar__Heading = styled.h2`
     letter-spacing: .1rem;
     color: var(--color-secondary-dark-1);
     text-shadow: 0 .2rem .4rem #00000030;
+    
+    @media only screen and (max-width: 62.5rem) {
+        font-size: 3.2rem;
+    }
 `
 
 const ComoJogar__Texto = styled.p`
     font-size: 1.9rem;
     color: var(--color-secondary);
+    
+    @media only screen and (max-width: 62.5rem) {
+        font-size: 2.4rem;
+    }
 `
 
 export default PaginaComoJogar;

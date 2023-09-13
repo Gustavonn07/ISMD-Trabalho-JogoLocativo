@@ -87,9 +87,9 @@ const Regras__Container = styled.section`
 `
 
 const Texto__Container = styled.div`
-    width: 80%;
-    height: 75%;
-    margin-top: 7rem;
+    width: 90%;
+    height: 70%;
+    margin-top: 12rem;
     
     display: flex;
     flex-direction: column;
@@ -98,6 +98,20 @@ const Texto__Container = styled.div`
     padding: 2rem;
     border-radius: .5rem;
     background-color: var(--color-secondary-light-5);
+    
+
+    @media only screen and (max-width: 50rem) {
+        width: 95%;
+        height: 75%;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        margin-top: 15.5rem;
+        padding: 1.2rem;
+        width: 98%;
+        height: 78%;
+        gap: 1.5rem;
+    }
 `
 
 const BTN__Container = styled.div`
@@ -105,6 +119,18 @@ const BTN__Container = styled.div`
     bottom: 5rem;
     display: flex;
     gap: 5rem;
+    
+    @media only screen and (max-width: 62.5rem) {
+        bottom: 10rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        bottom: 5rem;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        bottom: 3rem;
+    }
 `
 
 const Btn = styled.div`
@@ -131,7 +157,6 @@ const Texto__Heading = styled.h2`
     color: var(--color-secondary-dark-1);
     text-shadow: 0 .2rem .4rem #00000030;
     margin-left: 3rem;
-    margin-top: 3rem;
 `
 
 const Texto__Paragraph = styled.p`
@@ -140,6 +165,20 @@ const Texto__Paragraph = styled.p`
     color: var(--color-secondary);
     align-self: center;
     width: 90%;
+    
+    @media only screen and (max-width: 62.5rem) {
+        font-size: 1.9rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        width: 95%;
+        font-size: 1.89rem;
+        columns: 1;
+    }
 `
 
 export default PaginaRegras;

@@ -40,8 +40,9 @@ const Participantes = ({ imagem1, imagem2, alt1, alt2, nome1, nome2, mat1, mat2 
 
 const Participantes__Container = styled.section`
     grid-area: 3 / 2 / 4 / -1;
-
     background-color: var(--color-white);
+
+    @media only screen and (max-width: 75rem) { grid-area: 3 / 1 / 4 / -1}
 `
 
 const Participantes__HeadingPrimary = styled.h2`
@@ -50,6 +51,10 @@ const Participantes__HeadingPrimary = styled.h2`
     color: var(--color-secondary-dark-1);
     padding-top: 1rem;
     text-shadow: 0 .5rem .8rem #00000030;
+    
+    @media only screen and (max-width: 50rem) {
+        padding-top: 3.5rem;
+    }
 `
 
 const Participante__Container = styled.div`
@@ -61,6 +66,12 @@ const Participante__Container = styled.div`
     align-items: center;
     gap: 10rem;
     margin-top: -1rem;
+    
+    @media only screen and (max-width: 50rem) {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 2.5rem;
+    }
 `
 
 const Participantes__Participante = styled.div`
@@ -76,6 +87,12 @@ const Participantes__Participante = styled.div`
     background-color: var(--color-secondary-light-2);
     box-shadow: 0 .2rem .4rem #00000030;
     border-radius: 2rem;
+
+    @media only screen and (max-width: 50rem) {
+        width: 80%;
+        height: 50%;
+        gap: .5rem;
+    }
 `
 
 const Participantes__Imagem = styled.img`
@@ -85,22 +102,38 @@ const Participantes__Imagem = styled.img`
     border: .4rem solid var(--color-secondary-dark-1);
     margin-bottom: 3rem;
     box-shadow: 0 .8rem 1rem #00000040;
+
+    @media only screen and (max-width: 50rem) {
+        margin-bottom: 1rem;
+    }
 `
 
 const Participantes__Heading = styled.h3`
     font-size: 2rem;
     letter-spacing: .08rem;
+    
+    @media only screen and (max-width: 16.25rem) {
+        font-size: 3rem;
+    }
 `
 
 const Participantes__HeadingSecondary = styled.h4`
     font-size: 1.6rem;
     letter-spacing: .12rem;
+    
+    @media only screen and (max-width: 16.25rem) {
+        font-size: 2.5rem;
+    }
 `
 
 const Participantes__Span = styled.span`
     letter-spacing: normal;
     font-size: 1.8rem;
     color: var(--color-secondary);
+
+    @media only screen and (max-width: 16.25rem) {
+        font-size: 2.8rem;
+    }
 `
 
 export default Participantes;

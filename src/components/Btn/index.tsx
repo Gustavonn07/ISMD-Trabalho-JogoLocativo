@@ -33,6 +33,17 @@ const Btn__link = styled.a`
     &:active {
         transform: translateY(-1.5px);
     }
+
+    
+    @media only screen and (max-width: 75rem) {  
+        border-right: .35rem solid var(--color-secondary-dark-1);
+        width: 20%;
+        height: 100%;
+        padding: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export default Btn;

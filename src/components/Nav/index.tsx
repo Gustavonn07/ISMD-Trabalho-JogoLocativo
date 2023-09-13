@@ -30,6 +30,21 @@ const Nav__Container = styled.section`
     height: 100vh;
     width: 25rem;
     z-index: 100;
+
+    @media only screen and (max-width: 75rem) {
+        grid-area: 1 / 1 / 2 / -1;
+        width: 100%;
+        height: 10rem;
+        z-index: 1000;
+
+        flex-direction: row;
+    }
+
+    
+    @media only screen and (max-width: 500px) {
+        height: 15rem;
+        text-align: center;
+    }
 `
 
 export default Nav;

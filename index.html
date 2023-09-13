@@ -20,6 +20,12 @@
       html {
         font-size: 62.5%;
         font-family: 'Lato', sans-serif;
+
+        @media only screen and (max-width: 62.5rem) { font-size: 50%;};
+
+        @media only screen and (max-width: 500px) { font-size: 26%;};
+        
+        @media only screen and (max-width: 17rem) { font-size: 25%;};
       }
 
       :root {
@@ -41,6 +47,14 @@
 
         --color-white: #dfece6;
         --color-white-2: #e9f9f1;
+
+        /* 
+           --bp-largest: 75rem; // 1200px;
+           --bp-large: 62.5rem; // 1000px;
+           --bp-medium: 50rem;  // 800px;
+           --bp-medium: 500px;
+           --bp-small: 16.25rem; // 260px;
+        */
       }
     </style>
   </head>

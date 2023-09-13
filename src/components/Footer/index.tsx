@@ -16,6 +16,10 @@ const Footer_footer = styled.footer`
     position: absolute;
     color: var(--color-secondary-light-1);
     bottom: 1rem;
+    
+    @media only screen and (max-width: 75rem) {
+        display: none;
+    }
 `
 
 export default Footer;
