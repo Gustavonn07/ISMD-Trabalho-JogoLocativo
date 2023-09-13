@@ -101,7 +101,8 @@ const Texto__Container = styled.div`
 `
 
 const BTN__Container = styled.div`
-    margin-top: 3rem;
+    position: absolute;
+    bottom: 5rem;
     display: flex;
     gap: 5rem;
 `
