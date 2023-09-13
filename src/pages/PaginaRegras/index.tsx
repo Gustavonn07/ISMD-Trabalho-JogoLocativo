@@ -89,11 +89,11 @@ const Regras__Container = styled.section`
 const Texto__Container = styled.div`
     width: 80%;
     height: 75%;
-    margin-top: 10rem;
+    margin-top: 7rem;
     
     display: flex;
     flex-direction: column;
-    gap: 5.5rem;
+    gap: 3.5rem;
 
     padding: 2rem;
     border-radius: .5rem;
@@ -101,7 +101,7 @@ const Texto__Container = styled.div`
 `
 
 const BTN__Container = styled.div`
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     gap: 5rem;
 `
@@ -134,7 +134,8 @@ const Texto__Heading = styled.h2`
 `
 
 const Texto__Paragraph = styled.p`
-    font-size: 1.9rem;
+    font-size: 1.6rem;
+    columns: 2;
     color: var(--color-secondary);
     align-self: center;
     width: 90%;
