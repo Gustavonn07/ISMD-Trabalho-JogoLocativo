@@ -27,6 +27,8 @@ const BtnNext__Btn = styled.a`
     color: inherit;
 
     @media only screen and (max-width: 62.5rem) { font-size: 2rem}
+    
+    @media only screen and (max-width: 50rem) { font-size: 2.2rem;}
 `
 
 export default BtnNext;

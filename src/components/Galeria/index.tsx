@@ -31,6 +31,9 @@ const Galeria__Container = styled.section`
 
     
     @media only screen and (max-width: 75rem) { grid-area: 4 / 1 / -1 / -1}
+
+    
+    @media only screen and (max-width: 50rem) { display: none}
 `
 const Galeria__Image1 = styled.img`
     grid-area: 1 / 1 / 3 / 3;

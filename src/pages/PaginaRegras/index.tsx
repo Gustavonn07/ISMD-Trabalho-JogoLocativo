@@ -98,6 +98,20 @@ const Texto__Container = styled.div`
     padding: 2rem;
     border-radius: .5rem;
     background-color: var(--color-secondary-light-5);
+    
+
+    @media only screen and (max-width: 50rem) {
+        width: 95%;
+        height: 75%;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        margin-top: 15.5rem;
+        padding: 1.2rem;
+        width: 98%;
+        height: 78%;
+        gap: 1.5rem;
+    }
 `
 
 const BTN__Container = styled.div`
@@ -108,6 +122,14 @@ const BTN__Container = styled.div`
     
     @media only screen and (max-width: 62.5rem) {
         bottom: 10rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        bottom: 5rem;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        bottom: 3rem;
     }
 `
 
@@ -146,6 +168,16 @@ const Texto__Paragraph = styled.p`
     
     @media only screen and (max-width: 62.5rem) {
         font-size: 1.9rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        font-size: 1.8rem;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        width: 95%;
+        font-size: 1.89rem;
+        columns: 1;
     }
 `
 

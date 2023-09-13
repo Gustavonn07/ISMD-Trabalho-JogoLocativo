@@ -29,6 +29,11 @@ const Banner = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    @media only screen and (max-width: 50rem) {
+        background-image: linear-gradient(80deg, #1d9c6bee 60%, #1280561e 60%),
+                          url(../../images/Reitoria-UFC.jpg);
+    }
 `
 
 const Banner__Heading = styled.h1`
@@ -52,6 +57,17 @@ const Banner__Heading = styled.h1`
         position: absolute;
         border-radius: .4rem;
         box-shadow: 0 1rem 1.8rem #00000030;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        font-size: 6rem;
+        left: 5%;
+        top: 45%;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        font-size: 5.5rem;
+        top: 50%;
     }
 `
 

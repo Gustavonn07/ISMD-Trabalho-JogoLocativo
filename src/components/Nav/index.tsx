@@ -39,6 +39,12 @@ const Nav__Container = styled.section`
 
         flex-direction: row;
     }
+
+    
+    @media only screen and (max-width: 500px) {
+        height: 15rem;
+        text-align: center;
+    }
 `
 
 export default Nav;

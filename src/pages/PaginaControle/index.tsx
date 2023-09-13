@@ -84,14 +84,18 @@ const Container__Cima = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     margin-top: 10rem;
+
+
+    @media only screen and (max-width: 50rem) {
+        flex-direction: column;
+    }
 `
 
 const Mapa = styled.div`
     width: 45%;
     height: 100%;
-    margin-top: 7rem;
     box-shadow: 0 .8rem 1.4rem #00000040;
     
     & iframe {
@@ -99,6 +103,15 @@ const Mapa = styled.div`
         height: 100%;
         border-radius: .5rem;
         border: .4rem solid var(--color-terciary-dark-1);
+    }
+
+    @media only screen and (max-width: 50rem) {
+        width: 80%;
+        height: 50%;
+    }
+    
+    @media only screen and (max-width: 16.25rem) {
+        width: 98%;
     }
 `
 
@@ -114,6 +127,17 @@ const Texto__Container = styled.div`
     padding: 2rem;
     border-radius: .5rem;
     background-color: var(--color-secondary-light-5);
+
+    @media only screen and (max-width: 50rem) {
+        width: 80%;
+        height: 46rem;
+    }
+
+    @media only screen and (max-width: 16.25rem) {
+        width: 98%;
+        height: 40rem;
+        padding: 1rem;
+    }
 `
 
 const BTN__Container = styled.div`
@@ -124,6 +148,10 @@ const BTN__Container = styled.div`
 
     @media only screen and (max-width: 62.5rem) {
         bottom: 10rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        bottom: 5rem;
     }
 `
 
@@ -152,6 +180,10 @@ const Texto__Heading = styled.h2`
     text-shadow: 0 .2rem .4rem #00000030;
     margin-left: 1rem;
     margin-top: 3rem;
+
+    @media only screen and (max-width: 16.25rem) {
+        margin-top: 2rem;
+    }
 `
 
 const Texto__Paragraph = styled.p`
@@ -161,7 +193,12 @@ const Texto__Paragraph = styled.p`
     width: 90%;
     
     @media only screen and (max-width: 62.5rem) {
-        font-size: 2rem;
+        font-size: 2rem;   
+    }
+    
+    @media only screen and (max-width: 16.25rem) {
+        font-size: 2.2rem;
+        width: 95%;
     }
 `
 export default PaginaControle;

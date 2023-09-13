@@ -89,7 +89,15 @@ const ComoJogar__ContainerBox = styled.div`
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 100%;
+    height: 100%; 
+
+    @media only screen and (max-width: 50rem) {
+        flex-direction: column;
+    }
+    
+    @media only screen and (max-width: 16.25rem) {
+        margin-top: 3.2rem;
+    }
 `
 
 const BTN__Container = styled.div`
@@ -103,6 +111,11 @@ const BTN__Container = styled.div`
 
     @media only screen and (max-width: 62.5rem) {
         bottom: 10rem;
+    }
+
+    @media only screen and (max-width: 50rem) {
+        bottom: 5rem;
+        width: 50rem;
     }
 `
 
@@ -136,6 +149,11 @@ const ComoJogar__Box = styled.div`
     padding: 1.5rem;
     border-radius: .4rem;
     background-color: var(--color-secondary-light-5);
+
+    @media only screen and (max-width: 50rem) {
+        width: 90%;
+        height: 35%;
+    }
 `
 
 const ComoJogar__Heading = styled.h2`

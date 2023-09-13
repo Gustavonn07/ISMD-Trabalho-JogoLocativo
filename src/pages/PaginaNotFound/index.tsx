@@ -67,6 +67,11 @@ const Text__404 = styled.h2`
     right: 50%;
     top: 30%;
     transform: translateX(50%);
+
+    @media only screen and (max-width: 62.5rem) {
+        top: 10%;
+        width: 80%;
+    }
 `
 
 const Btn = styled.div`
@@ -89,6 +94,10 @@ const Btn = styled.div`
     &:active {
         transform: scale(1.02) translateX(50%) translateY(-1.5px);
         background-color: var(--color-terciary);
+    }
+
+    @media only screen and (max-width: 62.5rem) {
+        width: 60.34%;
     }
 `
 
