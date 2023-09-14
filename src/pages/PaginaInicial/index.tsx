@@ -66,8 +66,8 @@ const Banner__Heading = styled.h1`
     }
 
     @media only screen and (max-width: 16.25rem) {
-        font-size: 5.5rem;
-        top: 50%;
+        font-size: 4rem;
+        top: 55%;
     }
 `
 

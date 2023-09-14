@@ -131,6 +131,12 @@ const BTN__Container = styled.div`
     @media only screen and (max-width: 16.25rem) {
         bottom: 3rem;
     }
+
+    @media only screen and (max-width: 500px) {
+        gap: 1.4rem;
+        right: -10%;
+        width: 50rem;
+    }
 `
 
 const Btn = styled.div`
@@ -178,6 +184,10 @@ const Texto__Paragraph = styled.p`
         width: 95%;
         font-size: 1.89rem;
         columns: 1;
+    }
+
+    @media only screen and (max-width: 500px) {
+        font-size: 1.6rem;
     }
 `
 

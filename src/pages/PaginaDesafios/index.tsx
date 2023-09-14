@@ -113,6 +113,12 @@ const Container__Btn = styled.div`
     @media only screen and (max-width: 50rem) {
         bottom: 5rem;
     }
+
+    @media only screen and (max-width: 500px) {
+        gap: 1.4rem;
+        width: 50rem;
+        right: -12%;
+    }
 `
 
 const Btn = styled.div`
@@ -150,6 +156,10 @@ const Desafios__Paragraph = styled.p`
 
     @media only screen and (max-width: 62.5rem) {
         font-size: 2.5rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+        font-size: 2rem;
     }
 `
 
