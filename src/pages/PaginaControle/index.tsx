@@ -97,6 +97,7 @@ const Mapa = styled.div`
     width: 45%;
     height: 100%;
     box-shadow: 0 .8rem 1.4rem #00000040;
+    margin-top: 7rem;
     
     & iframe {
         width: 100%;
