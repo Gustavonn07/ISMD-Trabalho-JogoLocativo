@@ -164,7 +164,7 @@ const BTN__Container = styled.div`
 
     @media only screen and (max-width: 500px) {
         gap: 1.4rem;
-        right: -11.5%;
+        right: 43%;
         width: 50rem;
     }
 `
@@ -221,5 +221,6 @@ const Texto__Paragraph = styled.p`
 
     @media only screen and (max-width: 500px) {
         font-size: 1.7rem;
+    }
 `
 export default PaginaControle;
