@@ -117,7 +117,7 @@ const Container__Btn = styled.div`
     @media only screen and (max-width: 500px) {
         gap: 1.4rem;
         width: 50rem;
-        right: -12%;
+        right: 43%;
     }
 `
 

@@ -134,7 +134,7 @@ const BTN__Container = styled.div`
 
     @media only screen and (max-width: 500px) {
         gap: 1.4rem;
-        right: -10%;
+        right: 43%;
         width: 50rem;
     }
 `
