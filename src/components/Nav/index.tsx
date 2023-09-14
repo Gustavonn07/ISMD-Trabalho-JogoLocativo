@@ -42,8 +42,9 @@ const Nav__Container = styled.section`
 
     
     @media only screen and (max-width: 500px) {
-        height: 15rem;
+        height: 13rem;
         text-align: center;
+        font-size: 1.5rem;
     }
 `
 

@@ -113,7 +113,7 @@ const Participantes__Heading = styled.h3`
     letter-spacing: .08rem;
     
     @media only screen and (max-width: 16.25rem) {
-        font-size: 3rem;
+        font-size: 2%.5;
     }
 `
 
@@ -122,7 +122,7 @@ const Participantes__HeadingSecondary = styled.h4`
     letter-spacing: .12rem;
     
     @media only screen and (max-width: 16.25rem) {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 `
 
@@ -132,7 +132,7 @@ const Participantes__Span = styled.span`
     color: var(--color-secondary);
 
     @media only screen and (max-width: 16.25rem) {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
 `
 

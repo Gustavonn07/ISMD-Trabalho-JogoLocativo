@@ -87,9 +87,12 @@ const Container__Cima = styled.div`
     gap: 2rem;
     margin-top: 10rem;
 
-
     @media only screen and (max-width: 50rem) {
         flex-direction: column;
+    }
+
+    @media only screen and (max-width: 500px) {
+        gap: 0;
     }
 `
 
@@ -113,6 +116,10 @@ const Mapa = styled.div`
     
     @media only screen and (max-width: 16.25rem) {
         width: 98%;
+    }
+
+    @media only screen and (max-width: 500px) {
+        margin-top: 4rem;
     }
 `
 
@@ -154,6 +161,12 @@ const BTN__Container = styled.div`
     @media only screen and (max-width: 50rem) {
         bottom: 5rem;
     }
+
+    @media only screen and (max-width: 500px) {
+        gap: 1.4rem;
+        right: -11.5%;
+        width: 50rem;
+    }
 `
 
 const Btn = styled.div`
@@ -185,6 +198,10 @@ const Texto__Heading = styled.h2`
     @media only screen and (max-width: 16.25rem) {
         margin-top: 2rem;
     }
+
+    @media only screen and (max-width: 500px) {
+        font-size: 3rem;
+    }
 `
 
 const Texto__Paragraph = styled.p`
@@ -201,5 +218,8 @@ const Texto__Paragraph = styled.p`
         font-size: 2.2rem;
         width: 95%;
     }
+
+    @media only screen and (max-width: 500px) {
+        font-size: 1.7rem;
 `
 export default PaginaControle;

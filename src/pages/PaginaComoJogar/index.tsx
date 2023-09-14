@@ -18,7 +18,7 @@ const PaginaComoJogar = () => {
                         <ComoJogar__Box>
                             <ComoJogar__Heading>Como jogar Zord Map?</ComoJogar__Heading>
                             <ComoJogar__Texto>
-                                Neste jogo os participantes devem formar equipes de 3 pessoas, que quando juntas formam seu Zord e esse deve partir em buscas dos “Pontos de Poder” espalhados em pontos importantes do Campus do Pici, cumprindo os desafios do jogo, os obtendo a partir da leitura de QR codes escondidos nesses locais, para que enfim possam derrotar o grande monstro Vraque, que reside no bloco do SMD antes do tempo limite chegar ao final.
+                                Neste jogo os participantes devem formar equipes de 3 pessoas, que quando juntas formam seu Zord e esse deve partir em buscas dos “Pontos de Poder” espalhados em pontos importantes do Campus do Pici, comprindo os desafios do jogo, os obtendo a partir da leitura de QR codes escondidos nesses locais, para que enfim possam derrotar o grande monstro Vraque, que reside no bloco do SMD antes do tempo limite chegar ao final.
                             </ComoJogar__Texto>
                         </ComoJogar__Box>
                     </ComoJogar__ContainerBox>
@@ -117,6 +117,11 @@ const BTN__Container = styled.div`
         bottom: 5rem;
         width: 50rem;
     }
+
+    @media only screen and (max-width: 500px) {
+        gap: 1.4rem;
+        right: 43%;
+    }
 `
 
 const Btn = styled.div`
@@ -173,6 +178,10 @@ const ComoJogar__Texto = styled.p`
     
     @media only screen and (max-width: 62.5rem) {
         font-size: 2.4rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+        font-size: 1.8rem;
     }
 `
 
